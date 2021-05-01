@@ -54,11 +54,20 @@ Pada contoh kode di atas, kita memiliki elemen heading 1 yang tersusun dari tag 
 Bila kita memiliki contoh kode seperti ini:
 
 ```html
-body>
+<body>
     <h1>Selamat datang</h1>
     <p>Selamat belajar pemrograman web di <b>mhaziqrk</b></p>
 </body>
 ```
+maka:
+* <body> disebut tag body (atau tag pembuka body), <h1> adalah tag h1 dan `<p>` adalah tag p atau paragraf
+* <h1>Selamat datang</h1> disebut elemen h1
+* <p>Selamat belajar pemrograman web di <b>mhaziqrk</b></p> disebut elemen p atau paragraf
+* <b>mhaziqrk</b> disebut elemen b atau bold, <b> itu sendiri disebut tag b atau bold
+* semua bagian mulai dari tag pembuka body, berikut subelemen diantara tag pembuka dan penutup body, hingga tag tutup body disebut dengan elemen body.
+
+**Catatan** : Penulisan elemen harus lengkap, mulai dari tag pembuka, konten dan tag penutup. Apa yang sudah dibuka wajib ditutup kembali!
+
 
 
 [Kembali Ke atas](#belajar-html5)
