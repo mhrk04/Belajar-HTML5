@@ -60,8 +60,9 @@ Bila kita memiliki contoh kode seperti ini:
 </body>
 ```
 maka:
+
 * <body> disebut tag body (atau tag pembuka body), <h1> adalah tag h1 dan `<p>` adalah tag p atau paragraf
-* <h1>Selamat datang</h1> disebut elemen h1
+* `<h1>Selamat datang</h1>` disebut elemen h1
 * <p>Selamat belajar pemrograman web di <b>mhaziqrk</b></p> disebut elemen p atau paragraf
 * <b>mhaziqrk</b> disebut elemen b atau bold, <b> itu sendiri disebut tag b atau bold
 * semua bagian mulai dari tag pembuka body, berikut subelemen diantara tag pembuka dan penutup body, hingga tag tutup body disebut dengan elemen body.
