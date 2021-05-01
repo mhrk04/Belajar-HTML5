@@ -93,8 +93,31 @@ Ada juga tag untuk memformat teks, seperti `<b>`, `<i>`, `<strong>`, `<em>`, `<m
 
 Untuk menampilkan gambar kamu dapat menggunakan tag `<img>`, dan untuk membuat tautan kamu dapat menggunakan tag `<a>`.
 
+Di dalam HTML, kamu dapat membuat elemen table dengan menggunakan kombinasi dari tag `<table>, <thead>, <tbody>, <tr>, <th>, dan <td>`. Kamu juga dapat membuat list dengan menggunakan kombinasi dari tag `<ul>, <ol>, <li>, <dl>, <dd>, dan <dt>`. Terkait pembuatan table dan list akan dibahas secara khusus di bagian selanjutnya.
 
+Kamu juga dapat memasukkan video, audio atau format media lainnya menggunakan sejumlah tag seperti `<object>, <video>, <audio>, <embed>, dan <iframe>`.
 
+Sampai pembahasan ini kamu cukup perlu paham terkait tag dan elemen. Adapun cara penggunaan tag-tag di atas akan dibahas di bagian khusus setelah ini. Bila kamu ingin tahu lebih lengkap tag HTML apa saja yang tersedia dapat dilihat di https://www.w3schools.com/tags/. Jangan terkejut bila kamu menemukan banyak tag di HTML. Kamu tak mesti menghapal semuanya, cukup pelajari tag-tag yang akan kamu gunakan saat membuat web nantinya.
+
+## Attribut HTML
+
+Atribut memiliki tugas khusus untuk memberikan informasi tambahan pada sebuah tag.
+
+```html
+<namatag nama-atribut="nilai-atribut"></namatag>
+
+```
+Dari contoh kode di atas yang dimaksud dengan atribut adalah tambahan yang ditulis di dalam tag pembuka. Contohnya bila kita hendak membuat tautan atau link, kamu akan perlu menulis minimal seperti ini:
+
+```html
+<a href="login.html">Login</a>
+```
+
+Pada contoh kode di atas, kita membuat tautan menggunakan tag `<a>`. Namun menggunakan tag `<a>` saja tidak cukup, karena kita perlu memberi tahu kepada browser kemana halaman akan dialihkan bila pengguna mengklik tautan Login. Oleh karena itu, tag `<a>` dilengkapi dengan atribut `href` yang harus diisi dengan nama URL tujuan dari tautan tersebut. Pada contoh di atas, href adalah nama atribut, dan "login.html" adalah nilai atribut. Nama dan nilai atribut dipisahkan dengan tanda sama dengan (=).
+
+Selain tag `<a>` ada banyak tag lain yang memerlukan atribut. Bila dikelompokkan, ada dua jenis atribut, yakni atribut global dan atribut spesifik. Atribut global adalah atribut yang dapat diterapkan pada tag apapun karena sifatnya yang umum. Contoh atribut global diantaranya adalah `class, id, lang, title, style` dan sebagainya. Sedangkan atribut spesifik adalah atribut yang hanya berfungsi pada tag-tag tertentu, seperti atribut `href` yang hanya berlaku pada tag `<a>` dan `<link>`, atribut `src` yang hanya berlaku pada tag `<img>` dan `<script>`, dan sebagainya.
+
+Daftar lebih lengkap atribut HTML dapat dilihat di https://www.w3schools.com/html/html_attributes.asp
 
 [Kembali Ke atas](#belajar-html5)
 
