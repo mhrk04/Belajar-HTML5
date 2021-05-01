@@ -7,6 +7,20 @@ Pada tahun 1989, Tim Berners Lee dari organisasi European Organization for Nucle
 
 # Apa Kegunaan HTML ?
 
-*HTML* berguna untuk menampilkan konten, menghubungkan (link) antar halaman, memberi struktur dan informasi terkait dengan sebuah halaman web. Konten sebuah web tidak hanya terbatas pada teks saja, melainkan konten interaktif lainnya seperti video, audio, gambar dan animasi dapat disisipkan dan ditampilkan pada halaman web.
+**HTML** berguna untuk menampilkan konten, menghubungkan (link) antar halaman, memberi struktur dan informasi terkait dengan sebuah halaman web. Konten sebuah web tidak hanya terbatas pada teks saja, melainkan konten interaktif lainnya seperti video, audio, gambar dan animasi dapat disisipkan dan ditampilkan pada halaman web.
 
+Struktur dasar HTML memiliki susunan file seperti berikut ini :
+
+```html
+<html>
+    <head>
+        <title>Judul halaman</title>
+    </head>
+    <body>
+        <!-- semua yang akan di tampilkan di web disimpan di dalam body -->
+        <h1>Selamat datang</h1>
+    </body>
+</html>
+
+```
 
