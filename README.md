@@ -42,4 +42,5 @@ Tag HTML pada umumnya dibuat berpasangan, ada tag pembuka dan ada tag penutup. T
 ```
 **Catatan** : Perbedaan antara tag pembuka dan tag penutup adalah tag penutup memiliki karakter garis miring sebelum nama tagnya.
 
+[I'm an inline-style link](# Belajar-HTML5)
 
