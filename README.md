@@ -42,5 +42,24 @@ Tag HTML pada umumnya dibuat berpasangan, ada tag pembuka dan ada tag penutup. T
 ```
 **Catatan** : Perbedaan antara tag pembuka dan tag penutup adalah tag penutup memiliki karakter garis miring sebelum nama tagnya.
 
+## Elemen HTML
+Rangkaian dari tag pembuka, konten dan tag penutup disebut dengan **elemen HTML**. Contoh berikut ini adalah elemen heading 1 dan elemen paragraf:
+
+```html
+<h1>Selamat Datang</h1>
+<p>Selamat belajar pemrograman web.</p>
+```
+Pada contoh kode di atas, kita memiliki elemen heading 1 yang tersusun dari tag pembuka `<h1>`, konten elemen berupa teks bertuliskan Selamat Datang dan tag penutup `</h1>`. Kita juga memiliki elemen paragraf yang tersusun dari tag pembuka `<p>`, konten teks dan tag penutup `</p>`. Perbedaan dari kedua elemen ini adalah, elemen heading digunakan untuk menampilkan judul halaman, sedangkan elemen paragraf digunakan untuk menampilkan konten paragraf. Bila kita buka di browser, maka elemen heading akan dicetak lebih besar dan lebih tebal daripada elemen paragraf.
+
+Bila kita memiliki contoh kode seperti ini:
+
+```html
+body>
+    <h1>Selamat datang</h1>
+    <p>Selamat belajar pemrograman web di <b>mhaziqrk</b></p>
+</body>
+```
+
+
 [Kembali Ke atas](#belajar-html5)
 
