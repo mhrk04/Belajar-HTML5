@@ -69,6 +69,31 @@ maka:
 
 **Catatan** : Penulisan elemen harus lengkap, mulai dari tag pembuka, konten dan tag penutup. Apa yang sudah dibuka wajib ditutup kembali!
 
+Ada banyak tag yang dapat kita gunakan di dalam HTML untuk menampilkan konten. Bila kita bagi ke dalam dua area, maka ada tag-tag yang digunakan di dalam elemen head dan ada tag yang digunakan di dalam elemen body.
+
+## Tag di dalam Elemen Head
+
+Elemen yang ada di dalam head berfungsi sebagai informasi dari dokumen HTML dan tidak akan ditampilkan di layar browser. Beberapa tag yang dapat digunakan di dalam elemn head diantaranya adalah `<meta>`, `<title>`, `<style>`, `<script>` dan `<link>`.
+
+```html
+<head> 
+    <meta charset="utf-8">
+    <title>Judul halaman</title>
+    <style> Style </style>
+    <script> Javascript </script>
+</head>
+```
+## Tag di dalam Elemen Body
+
+Ada banyak tag yang dapat kita gunakan untuk menampilkan konten di dalam elemen body.
+
+Ada tag yang berfungsi untuk menampilkan teks, seperti `<h1>, <h2>, <h3>, <h3>, <h4>, <h5>, <p>` dan sebagainya.
+
+Ada juga tag untuk memformat teks, seperti `<b>`, `<i>`, `<strong>`, `<em>`, `<mark>`, `<del>` dan sebagainya.
+
+Untuk menampilkan gambar kamu dapat menggunakan tag `<img>`, dan untuk membuat tautan kamu dapat menggunakan tag `<a>`.
+
+
 
 
 [Kembali Ke atas](#belajar-html5)
